@@ -300,8 +300,8 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+PRODUCT_SOONG_NAMESPACES += device/asus/X01AD
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8953
 
 # Permissions
 PRODUCT_COPY_FILES += \
