@@ -301,7 +301,7 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += device/asus/X01AD
-PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8953
+#PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8953
 
 # Permissions
 PRODUCT_COPY_FILES += \
