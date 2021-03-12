@@ -15,15 +15,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 
 # Inherit common Octavi stuff.
 $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
+
+#Boot Anumation Stuff 
 TARGET_BOOT_ANIMATION_RES := 720
-TARGET_GAPPS_ARCH := arm64
-WITH_GAPPS := true
+
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
-EVO_DONATE_URL := http://paypal.me/jartinup
-EVO_MAINTAINER := jartinup | AP_XD
-EVO_SUPPORT_URL := https://t.me/prg_X01AD
+
+# Octavi Official
+OCTAVI_BUILD_TYPE := Unofficial
+OCTAVI_DEVICE_MAINTAINER := KryptoniteX
 
 # Pixel customization
 TARGET_INCLUDE_STOCK_ARCORE := false
