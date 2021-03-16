@@ -24,8 +24,10 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Octavi Official
-OCTAVI_BUILD_TYPE := Unofficial
 OCTAVI_DEVICE_MAINTAINER := KryptoniteX
+
+# Google Connectivity Services
+TARGET_INCLUDE_WIFI_EXT := true
 
 # Pixel customization
 TARGET_INCLUDE_STOCK_ARCORE := false
