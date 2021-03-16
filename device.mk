@@ -26,6 +26,17 @@ TARGET_OTA_ASSERT_DEVICE := X01A,X01AD
 TARGET_SCREEN_HEIGHT := 1520
 TARGET_SCREEN_WIDTH := 720
 
+YOUR_HW_PLATFORM := msm8953
+
+# Hardware
+PRODUCT_BOARD_PLATFORM := $ msm8953
+PRODUCT_USES_QCOM_HARDWARE := true
+
+# HALS
+SRC_AUDIO_HAL_DIR := hardware/qcom-caf/msm8953/audio
+SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/msm8953/display
+SRC_MEDIA_HAL_DIR := hardware/qcom-caf/msm8953/media
+
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
