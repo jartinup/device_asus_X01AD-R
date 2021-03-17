@@ -23,6 +23,10 @@ IS_PHONE := true
 TARGET_INCLUDE_STOCK_ARCORE := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
+#RevengeOS Stuff
+REVENGEOS_BUILDTYPE := UNOFFICIAL
+REVENGEOS_MAINTAINER := KryptoniteX
+
 # Inherit device stuff
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
